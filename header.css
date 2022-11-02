@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.titles{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.titles__title{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 6rem;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.titles__title:nth-child(2){
+    background-color: rgb(13, 237, 253);
+    color: black;
+}
+
+.subtitle--box{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle--box__padlock{
+    height: 5em;
+    object-fit: cover;
+}
+
+#subtitle{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 610px) {
+    .titles__title{
+        font-size: 1.5rem;
+        margin: .2em;
+        text-align: center;
+    }
+
+    #subtitle{
+        font-size: 1em;
+    }
+
+    .subtitle--box__padlock{
+        height: 1em;
+        object-fit: cover;
+    }
+
+}

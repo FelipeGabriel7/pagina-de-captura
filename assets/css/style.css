@@ -3,6 +3,10 @@ body {
     background: #000;
 }
 
+*{
+    /* outline: 1px solid red; */
+}
+
 .video{
     width: 70%;
     margin: 0rem auto;

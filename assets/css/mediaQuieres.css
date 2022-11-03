@@ -12,7 +12,6 @@
     }
 
     header {
-        /* margin: 0 1rem; */
     }
 
     .titles {
@@ -50,11 +49,9 @@
 @media (max-width:425px) {
     body {
         width: 100%;
-        /* margin: 0 1rem; */
     }
 
     header {
-        /* margin: 0 1rem; */
     }
 
     .titles {
@@ -104,7 +101,7 @@
     footer {
         padding: 1rem;
         margin: 3rem auto;
-        width:60%
+        width: 90%
     }
 
     .img-wrap {
@@ -129,11 +126,9 @@
 @media (max-width:375px) {
     body {
         width: 100%;
-        /* margin: 0 1rem; */
     }
 
     header {
-        /* margin: 0 1rem; */
     }
 
     .titles {

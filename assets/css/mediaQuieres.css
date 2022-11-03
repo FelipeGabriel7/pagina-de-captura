@@ -11,15 +11,39 @@
         width: 100%;
     }
 
-    .titles__title {
-        font-size: 3rem;
-        margin: .2em;
+    header{
+        margin: 0 1rem;
+    }
+    
+    .titles {
+        width: 100%;
         text-align: center;
     }
 
-    .video {
-        width: 80vw;
+    .titles__title{
+        font-size: 3rem;
     }
+
+    .subtitle--box{
+        margin-top: 1rem;
+    }
+
+    .subtitle--box__padlock{
+        height: 2em;
+        object-fit: cover;
+    }
+
+    #subtitle{
+        font-size: 1rem;
+        margin: 0.44rem;
+        text-transform: uppercase;
+    }
+    
+
+    .video{
+        width: 80%;
+    }
+    
 
 }
 

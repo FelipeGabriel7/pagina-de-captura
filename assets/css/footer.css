@@ -5,14 +5,17 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 2rem;
+    /* row-gap: 2rem; */
 
-    width: 100%;
-    max-width: 1140px;
+    /* width: 100%; */
+    /* max-width: 1140px; */
     padding: 2rem;
-    margin: 1rem auto;
+    margin: 3rem auto;
     background: #141414;
     border-radius: 20px;
+
+    width: 65vw;
+
 }
 
 .img-wrap {
@@ -27,18 +30,19 @@ footer {
 }
 
 footer .content h2 {
-    font-size: 1.325rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #787373;
+    margin-top: 1rem;
 }
 
 footer .content p {
     max-width: 90%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 0.88rem;
     text-align: center;
     line-height: 1.7rem;
     color: #787373;

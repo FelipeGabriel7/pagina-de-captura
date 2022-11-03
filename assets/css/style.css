@@ -1,6 +1,20 @@
-/* Alguns estilos globais */
-
 body {
     width: 100%;
     background: #000;
+}
+
+.video{
+    width: 65vw;
+    margin: 0rem auto;
+    border: 5px solid #00BBFF;
+    border-color: #00BBFF;
+    box-shadow: 0px 0px 70px -19px rgb(0 212 255 / 81%);
+    cursor: pointer;
+}
+
+.plataform{
+    width: 50vw;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
 }

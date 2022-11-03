@@ -13,7 +13,7 @@ body {
 }
 
 .plataform{
-    width: 50vw;
+    width: 100%;
     margin: 3rem auto;
     display: flex;
     justify-content: center;

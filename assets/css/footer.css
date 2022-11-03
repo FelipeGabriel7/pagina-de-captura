@@ -5,28 +5,22 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* row-gap: 2rem; */
-
-    /* width: 100%; */
-    /* max-width: 1140px; */
     padding: 2rem;
     margin: 3rem auto;
     background: #141414;
     border-radius: 20px;
 
-    width: 65vw;
+    width: 70%;
 
 }
 
 .img-wrap {
     max-width: 12%;
-
 }
 
 .img-wrap img {
     display: block;
     max-width: 100%;
-
 }
 
 footer .content h2 {

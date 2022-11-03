@@ -11,39 +11,39 @@
         width: 100%;
     }
 
-    header{
+    header {
         margin: 0 1rem;
     }
-    
+
     .titles {
         width: 100%;
         text-align: center;
     }
 
-    .titles__title{
+    .titles__title {
         font-size: 3rem;
     }
 
-    .subtitle--box{
+    .subtitle--box {
         margin-top: 1rem;
     }
 
-    .subtitle--box__padlock{
+    .subtitle--box__padlock {
         height: 2em;
         object-fit: cover;
     }
 
-    #subtitle{
+    #subtitle {
         font-size: 1rem;
         margin: 0.44rem;
         text-transform: uppercase;
     }
-    
 
-    .video{
+
+    .video {
         width: 80%;
     }
-    
+
 
 }
 
@@ -53,49 +53,92 @@
         margin: 0 1rem;
     }
 
+    header {
+        margin: 0 1rem;
+    }
+
+    .titles {
+        width: 100%;
+        text-align: center;
+    }
+
     .titles__title {
         font-size: 2rem;
-        margin: .2em 1rem;
-        text-align: center;
-        display: block;
+    }
 
-        background-color: red;
+
+    .titles__title:nth-child(2) {
+        padding: 0.1rem;
+        font-size: 1.80rem;
+    }
+
+    .titles__title:nth-child(3) {
+        font-size: 1.80rem;
+    }
+
+
+    .subtitle--box {
+        margin-top: 1rem;
     }
 
     .subtitle--box__padlock {
-        height: 5em;
+        height: 2em;
         object-fit: cover;
-        margin-left: 1rem;
-
-        background-color: red;
     }
 
     #subtitle {
-        color: white;
-        font-family: 'Anton', sans-serif;
-        font-size: 2rem;
-        margin: 10px;
+        font-size: 1rem;
+        margin: 0.44rem;
         text-transform: uppercase;
-        text-align: center;
     }
 
 
     .video {
-        width: 80vw;
+        width: 90%;
     }
 
-
-    .plataform img {
-        width: 80vw;
-        margin: 3rem auto;
-        display: flex;
-        justify-content: center;
+    .plataform img{
+        width: 80%;
     }
 
 
     footer {
-        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        margin: 3rem auto;
+        background: #141414;
+        border-radius: 20px;
+    
+        width: 90%
+    
     }
 
+    .img-wrap {
+        max-width: 30%;
+    }
+    footer .content h2 {
+        font-size: 0.75rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: #787373;
+        margin-top: 1rem;
+    }
+    
+
+    footer .content p {
+        max-width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 0.80rem;
+        text-align: center;
+        line-height: 1rem;
+        color: #787373;
+        margin-top: 1.3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }

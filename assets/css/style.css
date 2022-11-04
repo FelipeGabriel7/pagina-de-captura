@@ -9,8 +9,9 @@ body {
 
 .video{
     width: 70%;
+    border-radius: 0.2rem;
     margin: 0rem auto;
-    border: 5px solid #00BBFF;
+    border: 3px solid #00BBFF;
     border-color: #00BBFF;
     box-shadow: 0px 0px 70px -19px rgb(0 212 255 / 81%);
     cursor: pointer;
@@ -18,7 +19,7 @@ body {
 
 .plataform{
     width: 100%;
-    margin: 3rem auto;
+    margin: 3.5rem auto;
     display: flex;
     justify-content: center;
 }

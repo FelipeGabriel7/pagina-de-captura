@@ -3,11 +3,7 @@ body {
     background: #000;
 }
 
-*{
-    /* outline: 1px solid red; */
-}
-
-.video{
+.video {
     width: 70%;
     border-radius: 0.2rem;
     margin: 0rem auto;
@@ -17,7 +13,67 @@ body {
     cursor: pointer;
 }
 
-.plataform{
+.cadastro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.cadastro button {
+    width: 25%;
+    height: 7vh;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: green;
+    border: 5px solid rgb(45, 196, 45);
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 0.10rem;
+    cursor: pointer;
+    text-decoration: none;
+    animation: btn 3s linear forwards;
+
+}
+
+.cadastro button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.cadastro button {
+    visibility: hidden;
+    animation: btn 3s linear forwards;
+}
+
+@keyframes btn {
+    0% {
+        visibility: hidden;
+    }
+
+    99% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+.plataform {
     width: 100%;
     margin: 3.5rem auto;
     display: flex;

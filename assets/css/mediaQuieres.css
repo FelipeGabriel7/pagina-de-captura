@@ -11,8 +11,7 @@
         width: 100%;
     }
 
-    header {
-    }
+
 
     .titles {
         width: 100%;
@@ -43,6 +42,11 @@
         width: 80%;
     }
 
+    .cadastro button {
+        width: 40%;
+        height: 9vh;
+        font-size: 1rem;
+    }
 
 }
 
@@ -51,8 +55,7 @@
         width: 100%;
     }
 
-    header {
-    }
+
 
     .titles {
         width: 100%;
@@ -93,7 +96,15 @@
         width: 90%;
     }
 
-    .plataform img{
+
+    .cadastro button {
+        width: 80%;
+        height: 9vh;
+        font-size: 1rem;
+    }
+
+
+    .plataform img {
         width: 80%;
     }
 
@@ -107,11 +118,12 @@
     .img-wrap {
         max-width: 30%;
     }
+
     footer .content h2 {
         font-size: 0.75rem;
         margin-top: 1rem;
     }
-    
+
 
     footer .content p {
         max-width: 100%;
@@ -128,7 +140,7 @@
         width: 100%;
     }
 
-  
+
 
     .titles {
         width: 100%;
@@ -169,7 +181,14 @@
         width: 90%;
     }
 
-    .plataform img{
+
+    .cadastro button {
+        width: 90%;
+        height: 9vh;
+        font-size: 1rem;
+    }
+
+    .plataform img {
         width: 80%;
     }
 
@@ -183,11 +202,12 @@
     .img-wrap {
         max-width: 30%;
     }
+
     footer .content h2 {
         font-size: 0.75rem;
         margin-top: 1rem;
     }
-    
+
 
     footer .content p {
         max-width: 100%;

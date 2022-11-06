@@ -1,0 +1,201 @@
+@media (min-width:1440px) {
+    body {
+        width: 100%;
+        background: #000;
+    }
+
+}
+
+@media (max-width:768px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+    }
+
+    .titles {
+        width: 100%;
+        text-align: center;
+    }
+
+    .titles__title {
+        font-size: 3rem;
+    }
+
+    .subtitle--box {
+        margin-top: 1rem;
+    }
+
+    .subtitle--box__padlock {
+        height: 2em;
+        object-fit: cover;
+    }
+
+    #subtitle {
+        font-size: 1rem;
+        margin: 0.44rem;
+        text-transform: uppercase;
+    }
+
+
+    .video {
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width:425px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+    }
+
+    .titles {
+        width: 100%;
+        text-align: center;
+    }
+
+    .titles__title {
+        font-size: 2rem;
+    }
+
+
+    .titles__title:nth-child(2) {
+        padding: 0.1rem;
+        font-size: 1.80rem;
+    }
+
+    .titles__title:nth-child(3) {
+        font-size: 1.80rem;
+    }
+
+
+    .subtitle--box {
+        margin-top: 1rem;
+    }
+
+    .subtitle--box__padlock {
+        height: 2em;
+        object-fit: cover;
+    }
+
+    #subtitle {
+        font-size: 1rem;
+        margin: 0.44rem;
+    }
+
+
+    .video {
+        width: 90%;
+    }
+
+    .plataform img{
+        width: 80%;
+    }
+
+
+    footer {
+        padding: 1rem;
+        margin: 3rem auto;
+        width: 90%
+    }
+
+    .img-wrap {
+        max-width: 30%;
+    }
+    footer .content h2 {
+        font-size: 0.75rem;
+        margin-top: 1rem;
+    }
+    
+
+    footer .content p {
+        max-width: 100%;
+        font-size: 0.80rem;
+        line-height: 1rem;
+        margin-top: 1.3em;
+    }
+
+}
+
+
+@media (max-width:375px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+    }
+
+    .titles {
+        width: 100%;
+        text-align: center;
+    }
+
+    .titles__title {
+        font-size: 1.55rem;
+    }
+
+
+    .titles__title:nth-child(2) {
+        padding: 0.1rem;
+        font-size: 1.40rem;
+    }
+
+    .titles__title:nth-child(3) {
+        font-size: 1.40rem;
+    }
+
+
+    .subtitle--box {
+        margin-top: 1rem;
+    }
+
+    .subtitle--box__padlock {
+        height: 2em;
+        object-fit: cover;
+    }
+
+    #subtitle {
+        font-size: 1rem;
+        margin: 0.44rem;
+    }
+
+
+    .video {
+        width: 90%;
+    }
+
+    .plataform img{
+        width: 80%;
+    }
+
+
+    footer {
+        padding: 1rem;
+        margin: 3rem auto;
+        width: 90%
+    }
+
+    .img-wrap {
+        max-width: 30%;
+    }
+    footer .content h2 {
+        font-size: 0.75rem;
+        margin-top: 1rem;
+    }
+    
+
+    footer .content p {
+        max-width: 100%;
+        font-size: 0.80rem;
+        line-height: 1rem;
+        color: #787373;
+        margin-top: 1.3em;
+    }
+
+}
